@@ -2,9 +2,9 @@ import discord
 import chime
 import time
 
-idf = open('C:/Users/Laptop88_LTV/Documents/GitHub/Python/Bot/Poketwo-bot-1/ID.txt', 'r')
+idf = open('ID.txt', 'r')
 
-tokenf = open('C:/Users/Laptop88_LTV/Documents/GitHub/Python/Bot/Poketwo-bot-1/token.txt', 'r')
+tokenf = open('token.txt', 'r')
 
 ID = int(idf.read()) #Please include channel id #pkms
 
